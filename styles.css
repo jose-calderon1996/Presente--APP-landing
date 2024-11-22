@@ -113,3 +113,31 @@ footer {
 footer p {
   margin: 0;
 }
+
+/* Estilo del botón */
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-download {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.button-download:hover {
+  background-color: #388e3c;
+}
+
+.hidden {
+  display: none;
+}
